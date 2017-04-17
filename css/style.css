@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i');
+
+body {
+	background-color: black;
+	color: #ffffff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+pre {
+	font-size: 17px;
+	text-align: center;
+	font-family: roboto;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
+}
+  @font-face{
+    font-family: roboto;
+    src: url(roboto.ttf);
+  }
+   
+	#codes {
+        font-size:15px;
+        font-family: roboto;
+        color:white;
+    position: absolute;
+    left: 50%;
+    top: 97%;   
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+                text-align: center;
+                -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+                -moz-animation: fadein 3s; /* Firefox < 16 */
+                        -ms-animation: fadein 3s; /* Internet Explorer */
+                                -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+        }
+   
+  #bdog {
+        font-size:25px;
+        font-family: roboto;
+        color:white;
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+                text-align: center;
+                -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+                -moz-animation: fadein 3s; /* Firefox < 16 */
+                        -ms-animation: fadein 3s; /* Internet Explorer */
+                                -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+        }
