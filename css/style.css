@@ -15,6 +15,19 @@ body {
 	user-select: none;
 }
 
+  body {
+        background-color:black;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-attachment: fixed;
+		overflow: hidden;
+  }
+
+  @font-face{
+    font-family: roboto;
+    src: url(roboto.ttf);
+  }
+
 pre {
 	font-size: 17px;
 	text-align: center;
@@ -30,24 +43,6 @@ pre {
     src: url(roboto.ttf);
   }
    
-	#codes {
-        font-size:15px;
-        font-family: roboto;
-        color:white;
-    position: absolute;
-    left: 50%;
-    top: 97%;   
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-                text-align: center;
-                -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-                -moz-animation: fadein 3s; /* Firefox < 16 */
-                        -ms-animation: fadein 3s; /* Internet Explorer */
-                                -o-animation: fadein 3s; /* Opera < 12.1 */
-        animation: fadein 3s;
-        }
    
   #bdog {
         font-size:25px;
@@ -66,4 +61,4 @@ pre {
                         -ms-animation: fadein 3s; /* Internet Explorer */
                                 -o-animation: fadein 3s; /* Opera < 12.1 */
         animation: fadein 3s;
-        }
+ }
