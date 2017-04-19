@@ -1,35 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100i');
 
 body {
-	background-color: black;
-	color: #ffffff;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
+		background-color: black;
+		background-repeat: no-repeat
 }
 
-  body {
-        background-color:black;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-attachment: fixed;
-		overflow: hidden;
-  }
-
-  @font-face{
-    font-family: roboto;
-    src: url(roboto.ttf);
-  }
-
-pre {
-	font-size: 17px;
+h1 {
+	font-size: 50px;
 	text-align: center;
 	font-family: roboto;
 	-webkit-animation: fadein 2s;
@@ -38,12 +15,28 @@ pre {
 	-o-animation: fadein 2s;
 	animation: fadein 2s;
 }
-  @font-face{
-    font-family: roboto;
-    src: url(roboto.ttf);
-  }
-   
-   
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
   #bdog {
         font-size:25px;
         font-family: roboto;
